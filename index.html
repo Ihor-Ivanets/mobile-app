@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobileapp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <nav class="page-header-nav">
+          <a class="logo" href="./index.html">Mobileapp</a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="./index.html">HOME</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="">FEATURES</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="">TEAM</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="">TESTIMONIALS</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="">CONTACT</a>
+            </li>
+          </ul>
+          <button class="header-btn-open" type="button">
+            <svg class="header-btn-icon" width="24" height="14">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </nav>
+        <div class="header-mobile">
+          <div class="container header-mobile-container">
+            <div class="header-mobile-top">
+              <a class="logo" href="./index.html">Mobileapp</a>
+              <button class="header-btn-close" type="button">
+                <svg class="header-btn-close-icon" width="19" height="19">
+                  <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+            <nav class="header-mobile-nav">
+              <ul class="header-mobile-menu">
+                <li class="header-mobile-item">
+                  <a class="header-mobile-link" href="./index.html">HOME</a>
+                </li>
+                <li class="header-mobile-item">
+                  <a class="header-mobile-link" href="">FEATURES</a>
+                </li>
+                <li class="header-mobile-item">
+                  <a class="header-mobile-link" href="">TEAM</a>
+                </li>
+                <li class="header-mobile-item">
+                  <a class="header-mobile-link" href="">TESTIMONIALS</a>
+                </li>
+                <li class="header-mobile-item">
+                  <a class="header-mobile-link" href="">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page-main">
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">Introducing Mobileapp</h1>
+          <h2 class="hero-subtitle">Maecenas vitae tellus sapien. Prasent</h2>
+          <ul class="hero-list">
+            <li class="hero-item">semper scelerisque tristique a enim</li>
+            <li class="hero-item">
+              Integer ut mattis nulla, eget vehicula elit
+            </li>
+            <li class="hero-item">Prasent rutrum ac nunc et</li>
+          </ul>
+          <button class="button hero-button" type="button">Download</button>
+          <div class="hero-wrapp-img">
+            <img
+              class="hero-img-mobile"
+              srcset="
+                ./images/hero/phone-mobile.png    1x,
+                ./images/hero/phone-mobile@2x.png 2x
+              "
+              src="./images/hero/phone-mobile.png"
+              alt="image phone"
+            />
+            <img
+              class="hero-img-tablet"
+              srcset="
+                ./images/hero/phone-tablet.png    1x,
+                ./images/hero/phone-tablet@2x.png 2x
+              "
+              src="./images/hero/phone-tablet.png"
+              alt="image phone"
+            />
+            <img
+              class="hero-img-desktop"
+              srcset="
+                ./images/hero/phone-desktop.png    1x,
+                ./images/hero/phone-desktop@2x.png 2x
+              "
+              src="./images/hero/phone-desktop.png"
+              alt="image phone"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="container features-container">
+          <h3 class="features-title section-title">KEY FEATURES</h3>
+          <p class="features-text section-text">
+            Nunc vulputate nibh sed congue facilisis. Curabitur posuere
+            scelerisque neque. In sit amet lectus non lacus sollicitudin cursus
+            a vitae felis. Praesent luctus mi quis nisi interdum eleifend.
+          </p>
+          <ul class="features-list">
+            <li class="features-item">
+              <h4 class="features-item-title">Amet varius</h4>
+              <p class="features-item-text">
+                Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                Vivamus diam a iaculis malesuada
+              </p>
+            </li>
+            <li class="features-item">
+              <h4 class="features-item-title">Amet varius</h4>
+              <p class="features-item-text">
+                Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                Vivamus diam a iaculis malesuada
+              </p>
+            </li>
+            <li class="features-item">
+              <h4 class="features-item-title">Amet varius</h4>
+              <p class="features-item-text">
+                Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                Vivamus diam a iaculis malesuada
+              </p>
+            </li>
+            <li class="features-item">
+              <h4 class="features-item-title">Amet varius</h4>
+              <p class="features-item-text">
+                Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                Vivamus diam a iaculis malesuada
+              </p>
+            </li>
+            <li class="features-item">
+              <h4 class="features-item-title">Amet varius</h4>
+              <p class="features-item-text">
+                Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                Vivamus diam a iaculis malesuada
+              </p>
+            </li>
+            <li class="features-item">
+              <h4 class="features-item-title">Amet varius</h4>
+              <p class="features-item-text">
+                Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                Vivamus diam a iaculis malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="video">
+        <div class="container video-container">
+          <div class="video-content">
+            <h3 class="video-title section-title">WATCH THE VIDEO</h3>
+            <p class="video-text section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse fringilla fringilla nisl congue congue. Maecenas nec
+              condimentum libero, at elementum mauris. Phasellus eget nisi
+              dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id
+              sollicitudin ante lobortis at.
+            </p>
+            <ul class="video-list">
+              <li class="video-item">
+                <a class="video-link" href="#">
+                  <svg class="video-link-icon" width="30" height="35">
+                    <use href="./images/icons.svg#icon-apple"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="video-item">
+                <a class="video-link" href="#">
+                  <svg class="video-link-icon" width="30" height="35">
+                    <use href="./images/icons.svg#icon-android"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="video-wrapp">
+            <img
+              class="video-wrapp-img"
+              srcset="
+                ./images/video/phone.png    1x,
+                ./images/video/phone@2x.png 2x
+              "
+              src="./images/video/phone.png"
+              alt="video on phone"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container team-container">
+          <h3 class="team-title section-title">OUR TEAM</h3>
+          <p class="team-text section-text">
+            Nunc vulputate nibh sed congue facilisis. Curabitur posuere
+            scelerisque neque. In sit amet lectus non lacus sollicitudin cursus
+            a vitae felis. Praesent luctus mi quis nisi interdum eleifend.
+          </p>
+          <ul class="team-list">
+            <li class="team-item">
+              <img
+                class="team-img"
+                srcset="
+                  ./images/team/photo01.jpg    1x,
+                  ./images/team/photo01@2x.jpg 2x
+                "
+                src="./images/team/photo01.jpg"
+                alt="photo Jon Doe"
+                width="248"
+                height="303"
+              />
+              <h4 class="team-label">Jon Doe</h4>
+              <p class="team-descr">Managing Direcor</p>
+            </li>
+            <li class="team-item">
+              <img
+                class="team-img"
+                srcset="
+                  ./images/team/photo02.jpg    1x,
+                  ./images/team/photo02@2x.jpg 2x
+                "
+                src="./images/team/photo02.jpg"
+                alt="photo Jone Doe"
+                width="248"
+                height="303"
+              />
+              <h4 class="team-label">Jone Doe</h4>
+              <p class="team-descr">Lead Designer</p>
+            </li>
+            <li class="team-item">
+              <img
+                class="team-img"
+                srcset="
+                  ./images/team/photo03.jpg    1x,
+                  ./images/team/photo03@2x.jpg 2x
+                "
+                src="./images/team/photo03.jpg"
+                alt="photo Jone Doe"
+                width="248"
+                height="303"
+              />
+              <h4 class="team-label">Jone Doe</h4>
+              <p class="team-descr">Lead Developer</p>
+            </li>
+            <li class="team-item">
+              <img
+                class="team-img"
+                srcset="
+                  ./images/team/photo04.jpg    1x,
+                  ./images/team/photo04@2x.jpg 2x
+                "
+                src="./images/team/photo04.jpg"
+                alt="photo Jon Doe"
+                width="248"
+                height="303"
+              />
+              <h4 class="team-label">Jon Doe</h4>
+              <p class="team-descr">LSr. UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="costumer">
+        <div class="container costumer-container">
+          <h3 class="costumer-title section-title">WHAT OUR COSTUMER’S SAY</h3>
+          <ul class="costumer-list">
+            <li class="costumer-item">
+              <img
+                class="costumer-img"
+                srcset="
+                  ./images/costumer/avatar01.jpg    1x,
+                  ./images/costumer/avatar01@2x.jpg 2x
+                "
+                src="./images/costumer/avatar01.jpg"
+                alt="avatar"
+                width="181"
+                height="181"
+              />
+              <h4 class="costumer-label">Jon Doe</h4>
+              <p class="costumer-descr">Company Inc.</p>
+              <p class="costumer-text">
+                Vestibulum placerat nisl quis justo venenatis, et lacinia nunc
+                venenatis. semper libero nec sapien condimentum dignissim. Nunc
+                ante ligula, tempor in tellus in, gravida vestibulum justo.
+                Nulla facilisi. Nullam tristique eros quis nibh tempus, vel
+                viverra dolor pretium. Nam et vehicula leo. Vivamus hendrerit
+                sit amet ante a tempus. Aenean gravida massa et ante pulvinar,
+                id
+              </p>
+            </li>
+          </ul>
+          <ul class="costumer-btns">
+            <li class="costumer-btns-item">
+              <button
+                class="costumer-btn costumer-btn-active"
+                type="button"
+              ></button>
+            </li>
+            <li class="costumer-btns-item">
+              <button class="costumer-btn" type="button"></button>
+            </li>
+            <li class="costumer-btns-item">
+              <button class="costumer-btn" type="button"></button>
+            </li>
+            <li class="costumer-btns-item">
+              <button class="costumer-btn" type="button"></button>
+            </li>
+            <li class="costumer-btns-item">
+              <button class="costumer-btn" type="button"></button>
+            </li>
+            <li class="costumer-btns-item">
+              <button class="costumer-btn" type="button"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container contacts-container">
+          <h3 class="contacts-title section-title">CONTACT US</h3>
+          <div class="contacts-content">
+            <form
+              class="form"
+              name="form"
+              autocomplete="off"
+              placeholder="Name"
+            >
+              <div class="form-field">
+                <input
+                  class="form-input"
+                  type="text"
+                  name="user-name"
+                  placeholder="Name"
+                />
+                <input
+                  class="form-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="Email"
+                />
+              </div>
+              <textarea
+                class="form-textarea"
+                name="user-comment"
+                placeholder="Message"
+              ></textarea>
+              <button class="button contacts-button" type="submit">
+                <span class="text-above">SUBMIT</span>
+              </button>
+            </form>
+            <div class="contacts-about">
+              <h4 class="contacts-subtitle">Get in touch with us</h4>
+              <p class="contacts-text">
+                Nunc urna est, tristique et varius at, pharetra nec enim.
+                Quisque rhoncus lacus fringilla nulla sollicitudin tristique.
+              </p>
+              <ul class="contacts-social">
+                <li class="contacts-social-item">
+                  <a class="contacts-social-link" href="">
+                    <svg class="contacts-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts-social-item">
+                  <a class="contacts-social-link" href="">
+                    <svg class="contacts-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts-social-item">
+                  <a class="contacts-social-link" href="">
+                    <svg class="contacts-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <address class="contacts-address">
+                <ul class="contacts-address-list">
+                  <li class="contacts-address-item">
+                    <a class="contacts-address-link" href="tel:+xxxxxxxxxxxx"
+                      >+xx-xxxx-xxxx-xx</a
+                    >
+                  </li>
+                  <li class="contacts-address-item">
+                    <a
+                      class="contacts-address-link"
+                      href="mailto:goIteens@gmail.com"
+                      >goIteens@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container footer-container">
+        <p class="footer-text">
+          &copy;2019 GoIteens Template. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="modal-container">
+          <button class="modal-btn-close" type="button">
+            <svg class="modal-btn-close-icon" width="19" height="19">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <h3 class="modal-title section-title">Download</h3>
+          <form class="modal-form">
+            <ul class="modal-form-list">
+              <li class="modal-form-item">
+                <input
+                  class="modal-form-checkbox visually-hidden"
+                  type="radio"
+                  id="plan-one"
+                  value="plan-one"
+                  name="plan"
+                />
+                <label class="modal-form-item-content" for="plan-one">
+                  <svg class="modal-form-icon" width="80" height="106">
+                    <use href="./images/icons.svg#icon-download"></use>
+                  </svg>
+                  <p class="modal-form-title">Download free plan</p>
+                  <ul class="modal-form-includes">
+                    <li class="modal-form-include">
+                      <svg
+                        class="modal-form-include-icon"
+                        width="14"
+                        height="14"
+                      >
+                        <use href="./images/icons.svg#icon-modal-arrow"></use>
+                      </svg>
+                      Donec posuere augue venenatis, aliquet
+                    </li>
+                    <li class="modal-form-include">
+                      <svg
+                        class="modal-form-include-icon"
+                        width="14"
+                        height="14"
+                      >
+                        <use href="./images/icons.svg#icon-modal-arrow"></use>
+                      </svg>
+                      Donec posuere augue venenatis, aliquet
+                    </li>
+                  </ul>
+                </label>
+              </li>
+              <li class="modal-form-item">
+                <input
+                  class="modal-form-checkbox visually-hidden"
+                  type="radio"
+                  id="plan-two"
+                  value="plan-two"
+                  name="plan"
+                />
+                <label class="modal-form-item-content" for="plan-two">
+                  <svg class="modal-form-icon" width="80" height="106">
+                    <use href="./images/icons.svg#icon-download"></use>
+                  </svg>
+                  <p class="modal-form-title">Download for 20$</p>
+                  <ul class="modal-form-includes">
+                    <li class="modal-form-include">
+                      <svg
+                        class="modal-form-include-icon"
+                        width="14"
+                        height="14"
+                      >
+                        <use href="./images/icons.svg#icon-modal-arrow"></use>
+                      </svg>
+                      Donec posuere augue venenatis, aliquet
+                    </li>
+                    <li class="modal-form-include">
+                      <svg
+                        class="modal-form-include-icon"
+                        width="14"
+                        height="14"
+                      >
+                        <use href="./images/icons.svg#icon-modal-arrow"></use>
+                      </svg>
+                      Donec posuere augue venenatis, aliquet
+                    </li>
+                    <li class="modal-form-include">
+                      <svg
+                        class="modal-form-include-icon"
+                        width="14"
+                        height="14"
+                      >
+                        <use href="./images/icons.svg#icon-modal-arrow"></use>
+                      </svg>
+                      Donec posuere augue venenatis, aliquet
+                    </li>
+                  </ul>
+                </label>
+              </li>
+            </ul>
+          </form>
+          <p class="modal-text">
+            Nunc vulputate nibh sed congue facilisis. Curabitur posuere
+            scelerisque neque. In sit amet lectus non lacus
+          </p>
+          <ul class="modal-info-app-lists">
+            <li class="modal-info-app-list">
+              <ul class="modal-info-app">
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-file"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">App name</p>
+                    <p class="modal-info-app-sublabel">Mobileapp.layout</p>
+                  </div>
+                </li>
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-zip"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">License</p>
+                    <p class="modal-info-app-sublabel">Free</p>
+                  </div>
+                </li>
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-user"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">Author</p>
+                    <p class="modal-info-app-sublabel">
+                      Mobile Marrket App.com
+                    </p>
+                  </div>
+                </li>
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-calendar"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">Data</p>
+                    <p class="modal-info-app-sublabel">21.02.2022</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="modal-info-app-list">
+              <ul class="modal-info-app">
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-system"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">OC</p>
+                    <p class="modal-info-app-sublabel">Windows</p>
+                  </div>
+                </li>
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-language"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">Language</p>
+                    <p class="modal-info-app-sublabel">English</p>
+                  </div>
+                </li>
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-weight"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">Size</p>
+                    <p class="modal-info-app-sublabel">4.16 MB</p>
+                  </div>
+                </li>
+                <li class="modal-info-app-item">
+                  <svg class="modal-info-app-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-download"></use>
+                  </svg>
+                  <div class="modal-info-app-content">
+                    <p class="modal-info-app-label">Downloads</p>
+                    <p class="modal-info-app-sublabel">964</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a class="button modal-button" href="" download>Download</a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
