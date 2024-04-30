@@ -870,6 +870,9 @@ label {
   color: #1ab9fd;
 }
 
+.modal-button {
+  width: 100%;
+}
 .modal-btn-close {
   position: absolute;
   right: 20px;
